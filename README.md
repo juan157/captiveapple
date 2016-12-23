@@ -1,6 +1,6 @@
 ## Captive Apple
 #### A design concept for Social Engineering/Phishing designed for the Hak5 WiFi Pineapple Mark V
-![example](https://github.com/themattbook/captiveapple/blob/master/examples/example.png)
+![example](https://github.com/themattbook/captiveapple/blob/master/examples/portal.png)
 
 The end-user will see a login form prompting for Google account credentials. Once credentials have been supplied, the user will be redirected to Google search, giving the impression that the login attempt was "successful"
 ### Installation
