@@ -1,2 +1,1 @@
-test@gmail.com:auth
-:
+email:password
