@@ -1,5 +1,7 @@
 ## Captive Apple
-#### A design concept for Social Engineering/Phishing designed for the Hak5 WiFi Pineapple Mark V 
+#### A design concept for Social Engineering/Phishing designed for the Hak5 WiFi Pineapple Mark V
+![example](https://github.com/themattbook/captiveapple/blob/master/examples/example.png)
+
 The end-user will see a login form prompting for Google account credentials. Once credentials have been supplied, the user will be redirected to Google search, giving the impression that the login attempt was "successful"
 ### Installation
 Place all three files within the root directory specified by the Captive Portal infusion. *Optional: Place auth.txt in the SD card slot. Be sure to update login.php with the appropriate path to the file.*
@@ -17,13 +19,13 @@ It is highly recommended you modify the contents of index.html to suit the needs
 <title>Rename Me</title>
 <!-- End Page Title -->
 ```
-Replace the text "Rename Me" to something more suited to your target.
+Replace the text `Rename Me` to something more suited to your target.
 ```
 <!-- Logo Image -->
 <img src="PLACE_LINK_TO_IMAGE_HERE" class="img-responsive center-block">
 <!-- End of Logo Image -->
 ```
-Replace "PLACE_LINK_TO_IMAGE_HERE" with the full URL path of a convincing image.
+Replace `PLACE_LINK_TO_IMAGE_HERE` with the full URL path of a convincing image.
 
 ### What next?
 From the command line interface, issue the following command to view the contents of auth.txt in real time:
