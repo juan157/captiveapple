@@ -10,5 +10,22 @@ $ chmod 233 /path/to/file/directory/auth.txt
 ```
 
 However, to view the contents of auth.txt, you will need to be root or have superuser privileges via command line. The file will be inaccessible via web browser.
+## Modification
+It is highly recommended you modify the contents of index.html to suit the needs of your locale. Creating a convincing portal is essential to pulling off the social engineering required to convince end-users to login. You will find two areas in the source code specifically requesting modification:
+
+```
+<!-- Rename the Page Title -->
+<title>Rename Me</title>
+<!-- End Page Title -->
+```
+Replace the text "Rename Me" to something more suited to your target.
+
+```
+<!-- Logo Image -->
+<img src="PLACE_LINK_TO_IMAGE_HERE" class="img-responsive center-block">
+<!-- End of Logo Image -->
+```
+Replace "PLACE_LINK_TO_IMAGE_HERE" with the full URL path of a convincing image.
+
 ## Disclaimer
 I provide this content for security testing purposes only. I am not personally liable for any misuse or illegal activities conducted with the information provided.
